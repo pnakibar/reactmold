@@ -1,0 +1,10 @@
+body {
+  padding-top: 44px; /* because appbar/topbar */
+  font-family: 'Roboto', Arial, serif;
+  font-weight: 400;
+}
+
+.flex-container {
+  -webkit-justify-content: center; /* Safari */
+  justify-content:         center;
+}
