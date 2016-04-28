@@ -8,7 +8,7 @@
     "build": "webpack",
     "start": "webpack-dev-server",
     "devtool": "source-map",
-    "publish": "npm run build && node publish_to_ghpages.js"
+    "publish": "rm -rf node_modules/gh-pages/.cache && npm run build && node publish_to_ghpages.js"
   },
   "keywords": [],
   "author": "",
